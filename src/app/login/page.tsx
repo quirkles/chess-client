@@ -13,6 +13,10 @@ export default function Login() {
     }
   }, [oauthService.token])
   return (
-      <LoginButton/>
+      <div className='h-full grid grid-cols-1 place-content-center'>
+          <div>
+                <LoginButton/>
+          </div>
+      </div>
   )
 }
